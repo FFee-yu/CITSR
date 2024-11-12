@@ -10,9 +10,9 @@ Google Drive: https://drive.google.com/drive/folders/1BRD5FX01mVLMUVQ3vTEzY1XZ85
 (Please extract the six files, "hr_part1-6", separately, and then place the extracted files into the "hr" folder.)
 ## Dataset Folder Structure
 new_data  
->|---lr  
->>|---(lr image folder 1)  
->>...  
+|---lr  
+    -|---(lr image folder 1)  
+    -...  
 >>|---(lr image folder n)  
 >|---hr  
 >>|---(hr image folder 1)  
