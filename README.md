@@ -9,41 +9,25 @@ Baidu Cloud: https://pan.baidu.com/s/13Mnjf2GhI-_NdAPd6yZFfw (password: cyto)
 Google Drive: https://drive.google.com/drive/folders/1BRD5FX01mVLMUVQ3vTEzY1XZ85HV8dS8  
 (Please extract the six files, "hr_part1-6", separately, and then place the extracted files into the "hr" folder.)
 ## Dataset Folder Structure
-new_data/
-│
-├── dir1/
-│   ├── file1.ext
-│   └── file2.ext
-│
-├── dir2/
-│   ├── sub-dir1/
-│   │   └── file3.ext
-│   └── sub-dir2/
-│
-└── dir3/
-    ├── file4.ext
-    └── file5.ext
-
-'''
 new_data/ 
 │
 ├── lr/
-│   ├── (lr image folder 1)  
-│   ├── ...  
-│   ├── (lr image folder n)  
+│   ├── (lr image folder 1)
+│   ├── ...
+│   ├── (lr image folder n)
 │
 ├── hr/
-│   ├── (hr image folder 1)  
-│   ├── ...  
-│   ├── (hr image folder n)  
+│   ├── (hr image folder 1)
+│   ├── ...
+│   ├── (hr image folder n)
 │
 ├── train/
-│   ├── lr.txt  
-│   ├── hr.txt  
+│   ├── lr.txt
+│   ├── hr.txt
 │
 ├── test/
-│   ├── lr.txt  
-│   ├── hr.txt  
+│   ├── lr.txt
+│   ├── hr.txt
 Note: `lr` and `hr` are the image folders for super-resolution, where `train` and `test` contain the file paths for `lr` and `hr` images read during training and testing, respectively.
 ## Train
 see train.py and for more details. 
