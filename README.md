@@ -12,18 +12,18 @@ Google Drive: https://drive.google.com/drive/folders/1BRD5FX01mVLMUVQ3vTEzY1XZ85
 new_data  
 >|---lr  
 >>|---(lr image folder 1)  
-    ...  
-    |---(lr image folder n)  
-|---hr  
-    |---(hr image folder 1)  
-    ...  
-    |---(hr image folder n)  
-|---train  
-    |---lr.txt  
-    |---hr.txt  
-|---test  
-    |---lr.txt  
-    |---hr.txt  
+>>...  
+>>|---(lr image folder n)  
+>|---hr  
+>>|---(hr image folder 1)  
+>>...  
+>>|---(hr image folder n)  
+>|---train  
+>>|---lr.txt  
+>>|---hr.txt  
+>|---test  
+>>|---lr.txt  
+>>|---hr.txt  
 Note: `lr` and `hr` are the image folders for super-resolution, where `train` and `test` contain the file paths for `lr` and `hr` images read during training and testing, respectively.
 ## Train
 see train.py and for more details. 
