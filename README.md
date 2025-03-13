@@ -36,3 +36,15 @@ see train.py and for more details.
 ## Test
 see test.py and for more details.
 ## Citation
+```
+@ARTICLE{10819978,
+  author={Zhang, Jinyu and Cheng, Shenghua and Liu, Xiuli and Li, Ning and Rao, Gong and Zeng, Shaoqun},
+  journal={IEEE Transactions on Computational Imaging}, 
+  title={Cytopathology Image Super-Resolution of Portable Microscope Based on Convolutional Window-Integration Transformer}, 
+  year={2025},
+  volume={11},
+  number={},
+  pages={77-88},
+  keywords={Transformers;Microscopy;Feature extraction;Image reconstruction;Superresolution;Convolutional neural networks;Standards;Convolutional codes;Computer architecture;Computational modeling;Convolutional window-integration;cytopathology image;portable microscope;super-resolution;Transformer},
+  doi={10.1109/TCI.2024.3522761}}
+```
