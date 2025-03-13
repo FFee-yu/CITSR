@@ -1,6 +1,5 @@
 # CITSR: Cytopathology Image Super-Resolution of Portable Microscope Based on Convolutional Window-integration Transformer
-##
-[paper](https://ieeexplore.ieee.org/abstract/document/10819978)
+[paper](https://ieeexplore.ieee.org/abstract/document/10819978)  
 The implementation of CITSR.
 ## Model
 Toolkits can be found at lib directory.  
